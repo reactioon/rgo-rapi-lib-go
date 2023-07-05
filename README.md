@@ -9,7 +9,7 @@ This library must meet some requirements, see the list below:
 2. Easy to maintain/upgrade.
 3. Reusable
 
-## Usage examples
+## Usage
 You can use the library with two ways, doing an method chaining to an specific context or using method reference to create your context using the same keys.
 
 1. Method chaining
@@ -27,10 +27,10 @@ r := rapi.Load([]byte("your-key"), []byte("your-secret"))
 requestReturnGet, requestErrGet := r.Request("GET", "api/v2/bots/spot/all", make(map[string]string))
 ```
 
-# Considerations
+## Considerations
 This library is under development and may change over time. The integrity of existing methods will be maintained to avoid compatibility issues in the future.
 
-# Contributions
+## Contributions
 You can contribute to the development of the ecosystem by helping to improve this library. Feel free to improve and submit your work with a pull request.
 
 
